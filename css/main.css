@@ -1,0 +1,98 @@
+main{
+    flex-grow: 1;
+    display: flex;
+    font-family: 'Mulish', sem serifa;
+}
+
+.content-container{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.content-container h1{
+    display: flex;
+    flex-direction: column;
+    font-size: 7rem;
+    font-family: 'Mulish', sem serifa;
+    line-height: 4.5rem;
+    color: #ffff;
+}
+
+.content-container h1 span{
+    font-size: 2.5rem;
+    font-weight: 200;
+
+}
+
+.movie-tittle{
+    color: var(--accent-color);
+    font-size: 2.5rem;
+    
+}
+
+.movie-text{
+    width: 600px;
+    font-size: 1.3rem;
+    color: #ffff;
+    font-weight: 200;
+}
+
+.button{
+    height: 80px;
+    width: 300px;
+    background-color: var(--accent-color);
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-weight: 105;
+    font-size: 1.6rem;
+    font-style: italic; 
+
+}
+
+.social-container ul{
+    width: 48;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px; 
+}
+
+.social-container a:hover{
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+
+
+}
+
+.social-container a {
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #ffff;
+    transition: all 0.7s;
+}
+
+.social-container i {
+    font-size: 1.4rem;
+
+}
+
+@media (max-width: 768px) {
+    .movie-text {
+        display: none;
+    }
+
+    .social-container{
+        display: none;
+    }
+}
