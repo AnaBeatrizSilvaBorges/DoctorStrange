@@ -1,0 +1,44 @@
+body{
+height: 100vh;
+background: linear-gradient(90deg, #000, #000E 30%, #000A 50%, #0000 ), url(../img/background\ 2.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: right;
+background-blend-mode: darken;
+display: flex;
+flex-direction: column;
+padding: 0 128px;
+}
+
+header{
+    height: 120px;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+}
+
+.links-container{
+    height: 36px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    list-style: none;
+    
+}
+
+
+main{
+    flex-grow: 1;
+    display: flex;
+}
+
+.doctor-img{
+    height: 36px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
