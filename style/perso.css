@@ -1,3 +1,7 @@
+:root{
+    --accent-color: #FF031A;
+}
+
 body{
 height: 100vh;
 background: linear-gradient(90deg, #000, #000E 30%, #000A 50%, #0000 ), url(../img/background\ 2.png);
@@ -17,6 +21,26 @@ header{
    align-items: flex-end;
 }
 
+.tittle{
+    position: absolute;
+    top: 13%;
+    display: flex;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    
+    padding-left: 39%;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: auto;
+    flex-grow: 100;
+    margin-top: 40px;
+}
+
 .links-container{
     height: 36px;
     display: flex;
@@ -26,19 +50,80 @@ header{
     font-weight: bold;
     font-size: 1.1rem;
     list-style: none;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.links-container a {
+    text-shadow: 2px 2px 2px #000;
+    padding: 8px 6px;
+    transition: all 1s;
+}
+
+.links-container a:hover{
+    background-color: var(--accent-color);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    flex: 4;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.name{
+    display: flex;
+    position: relative;
+    top: 64vh;
+    align-items: left;
+    flex-direction: column;
+    font-weight: lighter;
+    font-size: 1.6rem;
+    color: #ffff;
+    font-style: italic;
+}
+.name span{
+    position: relative;
+    top: -15px;
+    font-weight: bold;
+    white-space: wrap;
+    font-size: 2.65rem;
     
 }
 
-
-main{
-    flex-grow: 1;
-    display: flex;
+.content-image{
+    width: 300px;
+    height: 556px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 
-.doctor-img{
-    height: 36px;
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    
+.text{
+    background-color: #000000b0;
+    padding: 30px;
+    font-size: 1.3rem;
+    margin-top: 100px;
+    border-radius: 16px;
+    height: 100%;
+    font-family: "Mulish";
+    font-weight: lighter;
+    text-align: left;
+}
+
+
+
+#wanda-image{
+    background-image: url(../img/feiticeira.png);
+    backdrop-filter: grayscale(10%);
+    background-position-x: 70%;
+}
+#strange-image{
+    background-position-x: 60%;
+    background-image: url(../img/doctor.png);
+}
+
+#wong-image{
+    background-image: url(../img/wong.png);
 }
