@@ -41,3 +41,61 @@ body{
 .links-container a:hover{
     background-color: var(--accent-color);
 }
+
+.tittle{
+    position: absolute;
+    top: 13%;
+    display: flex;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    padding-left: 40%;
+}
+
+main{
+    display: flex;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    flex: 4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 8%;
+}
+
+.content-image{
+    width: 300px;
+    height: 556px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    align-items: center;
+    display: flex;
+}
+
+
+#wanda-image{
+    background-image: url(../galeria.img/eles.png);
+    backdrop-filter: grayscale(10%);
+    background-position-x: 70%;
+}
+
+#strange-image{
+    background-position-x: 60%;
+    background-image: url(../galeria.img/todos.png);
+}
+
+#wong-image{
+    background-image: url(../galeria.img/foto.png);
+}
+
+#doc-image{
+    background-image: url(../galeria.img/image\ 7.png);
+}
+
+#glr-image{
+    background-image: url(../galeria.img/poster.png);
+}

@@ -41,3 +41,65 @@ body{
 .links-container a:hover{
     background-color: var(--accent-color);
 }
+
+.tittle{
+    position: absolute;
+    top: 13%;
+    display: flex;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    padding-left: 42%;
+    padding-top: 1.3%;
+}
+
+main{
+    display: flex;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    flex: 4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 8%;
+}
+
+.name{
+    display: flex;
+    position: relative;
+    top: 64vh;
+    align-items: left;
+    flex-direction: column;
+    font-weight: lighter;
+    font-size: 1.6rem;
+    color: #ffff;
+    font-style: italic;
+}
+
+.name a {
+    text-shadow: 2px 2px 2px #000;
+    padding: 8px 6px;
+    transition: all 1s;
+}
+
+.name a:hover{
+    background-color: var(--accent-color);
+}
+
+.content-image{
+    width: 600px;
+    height: 556px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    align-items: center;
+    display: flex;
+    
+}
+
+
+
+
