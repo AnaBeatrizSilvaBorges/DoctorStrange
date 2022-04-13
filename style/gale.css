@@ -77,25 +77,3 @@ main{
 }
 
 
-#wanda-image{
-    background-image: url(../galeria.img/eles.png);
-    backdrop-filter: grayscale(10%);
-    background-position-x: 70%;
-}
-
-#strange-image{
-    background-position-x: 60%;
-    background-image: url(../galeria.img/todos.png);
-}
-
-#wong-image{
-    background-image: url(../galeria.img/foto.png);
-}
-
-#doc-image{
-    background-image: url(../galeria.img/image\ 7.png);
-}
-
-#glr-image{
-    background-image: url(../galeria.img/poster.png);
-}
