@@ -64,40 +64,49 @@ main{
     flex: 4;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 8%;
-}
-
-.name{
-    display: flex;
-    position: relative;
-    top: 64vh;
-    align-items: left;
-    flex-direction: column;
-    font-weight: lighter;
-    font-size: 1.6rem;
-    color: #ffff;
-    font-style: italic;
-}
-
-.name a {
-    text-shadow: 2px 2px 2px #000;
-    padding: 8px 6px;
-    transition: all 1s;
-}
-
-.name a:hover{
-    background-color: var(--accent-color);
+    padding-top: 6%;
 }
 
 .content-image{
-    width: 600px;
+    width: 800px;
     height: 556px;
     border-radius: 16px;
     background-repeat: no-repeat;
     background-size: cover; 
     align-items: center;
     display: flex;
-    
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#oficial-img{
+    background-image: url(../galeria.img/oficial.png);
+    backdrop-filter: grayscale(10%);
+    background-position-x: 50%;
+}
+
+#dublado-img{
+    background-position-x: 49%;
+    background-image: url(../galeria.img/dublado.png);
+}
+
+.trailer-container{
+    display: flex;
+    color: #fff;
+    font-style: italic;
+    font-size: 1.8rem;
+    justify-content: center;
+    gap: 70vh;
+}
+
+.trailer-container a {
+    text-shadow: 2px 2px 2px #000;
+    padding: 8px 6px;
+    transition: all 1s;
+}
+
+.trailer-container a:hover{
+    background-color: var(--accent-color);
 }
 
 
